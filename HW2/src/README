@@ -1,0 +1,13 @@
+--How to Compile
+In this directory , enter the following command:
+$ make
+
+It will generate the executable file
+"FM_Partitioner" in the same directory.
+If you want to remove it please enter the following command:
+$ make clean
+
+--How to Run
+Usage: ./<exe> <cells> <nets> <output file name>
+e.g.:
+./FM_Partitioner ../testcases/p2-1.cells ../testcases/p2-1.nets ../output/p2-1.out

@@ -1,0 +1,12 @@
+--How to Compile
+In this directory , enter the following command:
+$ make
+It will generate the executable file
+"route" in the "bin" directory.
+If you want to remove it please enter the following command:
+$ make clean
+
+--How to Run
+Usage: ./<exe> <input_file> <output_name>
+e.g.:
+time ./hw5../testcase/ibm01.modified.txt ../output/ibm01.result

@@ -1,0 +1,12 @@
+--How to Compile
+In this directory , enter the following command:
+$ make
+It will generate the executable file
+"hw3" in the same directory.
+If you want to remove it please enter the following command:
+$ make clean
+
+--How to Run
+Usage: ./<exe> <hardblocks> <nets> <pl> <white_space_ratio> <use_seed> <output_name>
+e.g.:
+./hw3 ../testcase/n100.hardblocks ../testcase/n100.nets ../testcase/n100.pl ../output/n100.out 0.2

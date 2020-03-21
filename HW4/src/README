@@ -1,0 +1,12 @@
+--How to Compile
+In this directory , enter the following command:
+$ make
+It will generate the executable file
+"hw3" in the same directory.
+If you want to remove it please enter the following command:
+$ make clean
+
+--How to Run
+Usage: ./<exe> <aux>
+e.g.:
+./hw4 ../testcase/adaptec1/adaptec1.aux
